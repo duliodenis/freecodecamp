@@ -7,6 +7,7 @@ This repo contains my foundation coding challenges in the [JavaScript Full Stack
 No  | Course
 ------------- | -------------
 1. | HTML5 and CSS
+2. | Responsive Design with Bootstrap
 
 ### Licensing
 My solutions to the Free Code Camp code challenges are licensed under [the MIT License](https://github.com/duliodenis/freecodecamp/blob/master/LICENSE).
