@@ -8,7 +8,7 @@
 
 <script>
 $(document).ready(function() {
-    $(".btn").addClass("animated shake");
+    // $(".btn").addClass("animated shake");
     $("#target1").css("color", "gray")
     $("#target2").prop("disabled", true);
     $("#target4").remove();
@@ -16,6 +16,7 @@ $(document).ready(function() {
     $("#target5").clone().appendTo("#left-well");
     $("#target1").parent().css("background-color", "red");
     $("#right-well").children().css("color", "green");
+    $(".target:nth-child(2)").addClass("animated bounce");
 });
 </script>
 
