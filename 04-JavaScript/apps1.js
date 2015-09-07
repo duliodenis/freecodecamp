@@ -130,3 +130,16 @@ function myFunction() {
   return returnValue;
 }
 myFunction();
+
+// Use Conditional Logic with IfElse Statements
+function myFunction(){
+  var flip = Math.floor(Math.random() * (1 - 0 + 1)) + 0;
+  // Create an if-else statement here to return "heads" if flip is 0. Otherwise return "tails".
+
+  if (flip === 0) {
+    return "heads";
+  } else {
+    return "tails";  
+  }
+}
+console.log(myFunction());
