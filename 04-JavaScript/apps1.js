@@ -1,6 +1,9 @@
 var sum = 10 + 10; //make this equal to 20 by changing the 0 into the appropriate number.
 console.log(sum);
 
+var difference = 45 - 33; //make this equal to 12 by changing the 0 into the appropriate number.
+console.log(difference);
+
 // Only change code above this line.
 // We use this function to show you the value of your variable in your output box.
 // You'll learn about functions soon.
