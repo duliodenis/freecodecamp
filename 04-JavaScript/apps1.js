@@ -143,3 +143,12 @@ function myFunction(){
   }
 }
 console.log(myFunction());
+
+// Sift through Text with Regular Expressions
+var testString = "George Boole and Alan Turing went to the shop and got some milk";
+var expressionToGetMilk = /milk/gi;
+var expressionToGetAnd = /and/gi;
+
+var matches = testString.match(expressionToGetAnd);
+console.log(matches);
+console.log(testString.match(expressionToGetAnd).length);
