@@ -9,3 +9,7 @@ console.log(product);
 
 var quotient = 66 / 33; //make this equal to 2 by changing the 0 into the appropriate number.
 console.log(quotient);
+
+// Create a number with a decimal point here called myDecimal
+var myDecimal = 12.12;
+console.log(myDecimal);
