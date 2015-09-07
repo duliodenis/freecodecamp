@@ -25,3 +25,9 @@ console.log(myArray);
 // A nested array called myArray2.
 var myArray2 = [["inception", "array"], 12];
 console.log(myArray2);
+
+// A variable called myData set iequal to the first value of myArray3.
+var myArray3 = [1,2,3];
+// Only change code below this line.
+var myData = myArray3[0];
+console.log(myData);
