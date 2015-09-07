@@ -1,7 +1,10 @@
+<!-- Include bootstrap, animate.css, and jQuery -->
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+<!-- You shouldn't need to modify code above this line. -->
 
 <script>
 $(document).ready(function() {
@@ -12,9 +15,9 @@ $(document).ready(function() {
     $("#target2").appendTo("#right-well");
     $("#target5").clone().appendTo("#left-well");
     $("#target1").parent().css("background-color", "red");
+    $("#right-well").children().css("color", "green");
 });
 </script>
-
 
 <!-- You shouldn't need to modify code below this line. -->
 
