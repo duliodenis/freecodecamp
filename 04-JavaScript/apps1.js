@@ -42,3 +42,11 @@ var myArray = ["John", 23, ["cat", 2]];
 
 var removed = myArray.pop(); // This should be ["cat", 2] and myArray should now be ["John", 23]
 console.log(removed);
+
+// Takes the myArray array and push() this value to the end of it: ["dog", 3].
+var myArray = ["John", 23, ["cat", 2]];
+myArray.pop();
+//Add a ["dog", 3] to the end of myArray using push()
+// Only change code below this line.
+myArray.push(["dog", 3]);
+console.log(myArray);
