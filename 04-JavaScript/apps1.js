@@ -96,3 +96,13 @@ for(var i = 0; i <5; i++) {
   myArray.push(i);
 }
 console.log(myArray);
+
+// While Loops
+var myArray = [];
+//Push the numbers zero through four to myArray
+var i = 0;
+while (i < 5) {
+  myArray.push(i);
+  i++;
+}
+console.log(myArray);
