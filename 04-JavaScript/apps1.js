@@ -80,3 +80,11 @@ var myDog = {
     friends: ["Thelma", "Shaggy"]
 };
 console.log(myDog);
+
+// Let's add the property bark to myDog
+myDog.bark = "Woof";
+
+// Now delete the property tails
+delete myDog.tails;
+
+console.log(myDog);
