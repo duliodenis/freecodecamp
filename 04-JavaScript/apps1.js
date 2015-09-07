@@ -70,3 +70,13 @@ var b = 5;
 function myFunction() {
   return a+b;
 }
+
+// an Object that represents a dog called myDog which contains the properties
+// 'name' (String), 'legs' (Number), 'tails' (Number) and 'friends' (Array)
+var myDog = {
+    name: "Scooby",
+    legs: 4,
+    tails: 1,
+    friends: ["Thelma", "Shaggy"]
+};
+console.log(myDog);
