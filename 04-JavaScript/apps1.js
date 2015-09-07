@@ -88,3 +88,11 @@ myDog.bark = "Woof";
 delete myDog.tails;
 
 console.log(myDog);
+
+// Loops
+var myArray = [];
+//Push the numbers zero through four to myArray using a "for loop".
+for(var i = 0; i <5; i++) {
+  myArray.push(i);
+}
+console.log(myArray);
