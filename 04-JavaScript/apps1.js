@@ -112,3 +112,10 @@ function myFunction() {
   return Math.random();
 }
 console.log(Math.random());
+
+// Generate Random Whole Numbers with JavaScript
+function myFunction(){
+  // Make myFunction return a random number between zero and nine> instead of a decimal  
+  return Math.floor(Math.random() *10);
+}
+console.log(Math.floor(Math.random() *10));
