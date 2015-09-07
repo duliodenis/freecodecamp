@@ -106,3 +106,9 @@ while (i < 5) {
   i++;
 }
 console.log(myArray);
+
+// Random Numbers
+function myFunction() {
+  return Math.random();
+}
+console.log(Math.random());
