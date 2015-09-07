@@ -1,16 +1,15 @@
-var firstNameLength = 0;
-var lastNameLength = 0;
+var firstLetterOfFirstName = "";
+var firstLetterOfLastName = "";
+
 var firstName = "Ada";
 
-firstNameLength = firstName.length;
+firstLetterOfFirstName = firstName[0];
 
 var lastName = "Lovelace";
 
-// don't change code above here
-
-lastNameLength = lastName.length;
+firstLetterOfLastName = lastName[0];
 
 // Only change code above this line.
 // We use this function to show you the value of your variable in your output box.
 // You'll learn about functions soon.
-if(typeof(lastNameLength) !== "undefined"){(function(){return lastNameLength;})();}
+(function(v){return v;})(firstLetterOfLastName);
