@@ -21,3 +21,7 @@ console.log(product);
 // A new array called myArray that contains both a string and a number
 var myArray = ["a string", 12];
 console.log(myArray);
+
+// A nested array called myArray2.
+var myArray2 = [["inception", "array"], 12];
+console.log(myArray2);
