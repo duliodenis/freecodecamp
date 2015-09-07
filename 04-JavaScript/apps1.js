@@ -119,3 +119,14 @@ function myFunction(){
   return Math.floor(Math.random() *10);
 }
 console.log(Math.floor(Math.random() *10));
+
+// Generate Random Whole Numbers within a Range
+var min = 0;
+var max = 9;
+function myFunction() {
+  // Make myFunction return a random number between zero and nine instead of a decimal
+  var returnValue = Math.floor(Math.random() * (max - min +1) + min);
+  console.log(returnValue);
+  return returnValue;
+}
+myFunction();
