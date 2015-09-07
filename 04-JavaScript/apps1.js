@@ -62,3 +62,11 @@ myArray.shift();
 // Add "Paul" to the start of myArray
 myArray.unshift("Paul");
 console.log(myArray);
+
+var a = 4;
+var b = 5;
+// Create a function called myFunction that returns the value of a plus b.
+// Only change code below this line.
+function myFunction() {
+  return a+b;
+}
