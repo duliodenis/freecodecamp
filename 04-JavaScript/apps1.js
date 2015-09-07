@@ -55,3 +55,10 @@ console.log(myArray);
 var myArray = ["John", 23, ["dog", 3]];
 var myRemoved = myArray.shift(); // This should be ["John"] and myArray should now be [23, ["dog", 3]]
 console.log(myArray);
+
+var myArray = ["John", 23, ["dog", 3]];
+myArray.shift();
+
+// Add "Paul" to the start of myArray
+myArray.unshift("Paul");
+console.log(myArray);
