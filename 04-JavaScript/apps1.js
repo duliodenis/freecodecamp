@@ -36,3 +36,9 @@ console.log(myData);
 var myArray = [1,2,3];
 myArray[0] = 3;
 console.log(myArray);
+
+// Used the .pop() function to remove the last item from myArray.
+var myArray = ["John", 23, ["cat", 2]];
+
+var removed = myArray.pop(); // This should be ["cat", 2] and myArray should now be ["John", 23]
+console.log(removed);
