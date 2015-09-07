@@ -13,3 +13,7 @@ console.log(quotient);
 // Create a number with a decimal point here called myDecimal
 var myDecimal = 12.12;
 console.log(myDecimal);
+
+var quotient = 4.4 / 2.0; // equals 2.2
+var product = 2.0 * 2.5; // equals 5.0
+console.log(product);
