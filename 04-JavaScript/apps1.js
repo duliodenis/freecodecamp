@@ -1,15 +1,12 @@
-var firstLetterOfFirstName = "";
-var firstLetterOfLastName = "";
-
 var firstName = "Ada";
 
-firstLetterOfFirstName = firstName[0];
+var secondLetterOfFirstName = firstName[1];
 
 var lastName = "Lovelace";
 
-firstLetterOfLastName = lastName[0];
+var thirdLetterOfLastName = lastName[2];
 
 // Only change code above this line.
 // We use this function to show you the value of your variable in your output box.
 // You'll learn about functions soon.
-(function(v){return v;})(firstLetterOfLastName);
+(function(v){return v;})(thirdLetterOfLastName);
