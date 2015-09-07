@@ -50,3 +50,8 @@ myArray.pop();
 // Only change code below this line.
 myArray.push(["dog", 3]);
 console.log(myArray);
+
+// Takes the myArray array and shift() the first value off of it.
+var myArray = ["John", 23, ["dog", 3]];
+var myRemoved = myArray.shift(); // This should be ["John"] and myArray should now be [23, ["dog", 3]]
+console.log(myArray);
