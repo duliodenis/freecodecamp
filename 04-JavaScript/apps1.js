@@ -31,3 +31,8 @@ var myArray3 = [1,2,3];
 // Only change code below this line.
 var myData = myArray3[0];
 console.log(myData);
+
+// Modify the data stored at index 0 of myArray to the value of 3.
+var myArray = [1,2,3];
+myArray[0] = 3;
+console.log(myArray);
