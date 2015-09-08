@@ -159,3 +159,8 @@ var expression = /\d+/gi;
 var numberOfnumbers = testString.match(expression).length;
 console.log("Number of numbers = " + numberOfnumbers);
 
+// Find White Space with Regular Expressions
+var testString = "How many spaces are there in this sentence?";
+var expression = /\s+/gi;
+var numberOfspaces = testString.match(expression).length;
+console.log("Number of spaces = " + numberOfspaces);
