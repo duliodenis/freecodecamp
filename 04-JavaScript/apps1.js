@@ -152,3 +152,10 @@ var expressionToGetAnd = /and/gi;
 var matches = testString.match(expressionToGetAnd);
 console.log(matches);
 console.log(testString.match(expressionToGetAnd).length);
+
+// Find Numbers with Regular Expressions
+var testString = "There are 3 cats but 4 dogs.";
+var expression = /\d+/gi;
+var numberOfnumbers = testString.match(expression).length;
+console.log("Number of numbers = " + numberOfnumbers);
+
