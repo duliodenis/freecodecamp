@@ -15,6 +15,11 @@ function reverseString(str) {
   return reversedStrArray.join("");
 }
 
+function reverseString2(str) {
+  
+  return reversedStrArray.str.split(',').reverse().join(',');
+}
+
 
 // Test Cases
 var reversedString = reverseString('hello');
