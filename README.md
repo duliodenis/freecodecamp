@@ -10,6 +10,7 @@ No  | Course
 2. | Responsive Design with Bootstrap
 3. | jQuery
 4. | JavaScript
+5. | Algorithms 1 (Basic)
 
 ### Licensing
 My solutions to the Free Code Camp code challenges are licensed under [the MIT License](https://github.com/duliodenis/freecodecamp/blob/master/LICENSE).
