@@ -156,11 +156,17 @@ console.log(testString.match(expressionToGetAnd).length);
 // Find Numbers with Regular Expressions
 var testString = "There are 3 cats but 4 dogs.";
 var expression = /\d+/gi;
-var numberOfnumbers = testString.match(expression).length;
-console.log("Number of numbers = " + numberOfnumbers);
+var numberOfNumbers = testString.match(expression).length;
+console.log("Number of Numbers = " + numberOfNumbers);
 
 // Find White Space with Regular Expressions
 var testString = "How many spaces are there in this sentence?";
 var expression = /\s+/gi;
-var numberOfspaces = testString.match(expression).length;
-console.log("Number of spaces = " + numberOfspaces);
+var numberOfSpaces = testString.match(expression).length;
+console.log("Number of Spaces = " + numberOfSpaces);
+
+// Invert Regular Expression Matches with JavaScript
+var testString = "How many non-space characters are there in this sentence?";
+var expression = /\S/gi;
+var numberOfNonSpaces = testString.match(expression).length;
+console.log("Number of Non Spaces = " + numberOfNonSpaces);
