@@ -14,10 +14,14 @@
     $(".logger").html("Not A Win")
     
     // Use selectors to display each number in its corresponding slot.
-    $($(".slot")[0]).html(slotOne);
+    /*$($(".slot")[0]).html(slotOne);
     $($(".slot")[1]).html(slotTwo);
     $($(".slot")[2]).html(slotThree);
-    
+    */
+    $($('.slot')[0]).html('<img src="' +images[slotOne-1] +'">');
+    $($('.slot')[1]).html('<img src="' +images[slotTwo-1] +'">');
+    $($('.slot')[2]).html('<img src="' +images[slotThree-1] +'">');
+      
     // if statement with multiple conditions in order to check whether all numbers are equal.
     if ((slotOne !== slotTwo) || (slotTwo !== slotThree) || (slotThree !== slotOne)) return null;
       
