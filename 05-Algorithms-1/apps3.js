@@ -19,3 +19,27 @@ console.log("20!=2432902008176640000. We say: " +factorial3);
 if (factorial1 === 120) console.log("Match 5!");
 if (factorial2 === 3628800) console.log("Match 10!");
 if (factorial3 === 2432902008176640000) console.log("Match 20!");
+
+
+//Eric Gu's implementation
+
+function factorialize(num) {
+  //creating an empty array    
+  if(num === 0){
+    return 1;
+  }
+  else{
+  var array = [];
+  //countdown
+  for(var i = num; i > 0; i--){
+      array.push(i);
+  }
+  var factorial = array.reduce(function(previousVal, currentVal){
+  return previousVal*currentVal;
+  });
+    
+  return factorial;
+  } 
+}
+
+factorialize(10);
