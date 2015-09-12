@@ -59,3 +59,17 @@ console.log(" [[0,1], [2,3], [4,5]] = " + test3);
 // Test 4: [ [ 0, 1, 2, 3 ], [ 4, 5 ] ]
 var test4 = chunk([0, 1, 2, 3, 4, 5], 4);
 console.log("[ [ 0, 1, 2, 3 ], [ 4, 5 ] ] = " + test4);
+
+
+//Eric Gu's Implementation of Chunky Monkey
+
+function chunk(arr, size) {
+  // Break it up.
+  var newArray = [];
+  for (var i=0; i<arr.length+1; i++){
+      newArray.push(arr.splice(0, size))
+  }
+  return newArray;
+}
+
+chunk([0, 1, 2, 3, 4, 5], 2)
