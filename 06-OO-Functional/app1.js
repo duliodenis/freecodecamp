@@ -69,3 +69,15 @@ var Bike = function() {
 
 var myCar = new Car();
 var myBike = new Bike();
+
+
+//  Waypoint 4:  Make Instances of Objects with a Constructor Function
+
+var Car = function() {
+   this.wheels = 4;
+};
+
+var myCar = new Car();
+
+//Add the property "engines" to myCar, and make it a number.
+myCar.engines = 1;
