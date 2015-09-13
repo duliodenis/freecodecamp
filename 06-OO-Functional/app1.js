@@ -129,3 +129,9 @@ var concatMe = [4,5,6];
 
 array = array.concat(concatMe);
 console.log("concatenated arrays = " +array);
+
+
+//  Waypoint 11: Split Strings with split
+var string = "Split me into an array";
+var array = string.split(" ");
+console.log("Split string = " +array);
