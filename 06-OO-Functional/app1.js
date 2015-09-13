@@ -121,3 +121,11 @@ console.log("sorted array = " +array);
 var array = [1,2,3,4,5,6,7];
 array = array.reverse();
 console.log("reversed array = " +array);
+
+
+//   Waypoint 10: Concatenate Strings with concat
+var array = [1,2,3];
+var concatMe = [4,5,6];
+
+array = array.concat(concatMe);
+console.log("concatenated arrays = " +array);
