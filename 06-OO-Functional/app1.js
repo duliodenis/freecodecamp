@@ -91,3 +91,13 @@ array = array.map(function(value) {
           return value+3; });
 
 console.log("Added 3 to every value of array = " + array);
+
+
+//  Waypoint 6: Condense arrays with reduce
+var singleVal = 0;
+
+singleVal = array.reduce(function(previous, current) {
+  return previous+current;
+});
+
+console.log("singleValue after a reduce = 30 = " +singleVal);
