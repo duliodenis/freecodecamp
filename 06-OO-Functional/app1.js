@@ -81,3 +81,13 @@ var myCar = new Car();
 
 //Add the property "engines" to myCar, and make it a number.
 myCar.engines = 1;
+
+
+//  Waypoint 5: Iterate over Arrays with map
+//  Use map to add three to each value in the array
+var array = [1,2,3,4,5];
+
+array = array.map(function(value) {
+          return value+3; });
+
+console.log("Added 3 to every value of array = " + array);
