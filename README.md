@@ -11,6 +11,7 @@ No  | Course
 3. | jQuery
 4. | JavaScript
 5. | Algorithms 1 (Basic)
+6. | Object Oriented + Functional Programming
 
 ### Licensing
 My solutions to the Free Code Camp code challenges are licensed under [the MIT License](https://github.com/duliodenis/freecodecamp/blob/master/LICENSE).
