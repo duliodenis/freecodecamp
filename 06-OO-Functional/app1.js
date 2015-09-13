@@ -115,3 +115,9 @@ console.log("Removed all the values greater than five = " +array);
 var array = ['beta', 'alpha', 'charlie'];
 array = array.sort();
 console.log("sorted array = " +array);
+
+
+//  Waypoint 9: Reverse Arrays with reverse
+var array = [1,2,3,4,5,6,7];
+array = array.reverse();
+console.log("reversed array = " +array);
