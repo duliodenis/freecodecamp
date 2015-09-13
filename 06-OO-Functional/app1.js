@@ -25,3 +25,16 @@ var motorBike = {
     engines: 1,
     seats: 1
 };
+
+
+//  Waypoint 2: Construct JavaScript Objects with Functions
+//  http://freecodecamp.com/challenges/waypoint-construct-javascript-objects-with-functions
+
+// Give your myMotorBike object a wheels, engines and seats
+var MotorBike = function() {
+  this.wheels = 4;
+  this.engines = 1;
+  this.seats = 1;
+};
+
+var myMotorBike = new MotorBike();
