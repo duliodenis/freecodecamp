@@ -109,3 +109,9 @@ array = array.filter(function(value) {
   return value <= 5;
 });
 console.log("Removed all the values greater than five = " +array);
+
+
+//  Waypoint 8: Sort Arrays with sort
+var array = ['beta', 'alpha', 'charlie'];
+array = array.sort();
+console.log("sorted array = " +array);
