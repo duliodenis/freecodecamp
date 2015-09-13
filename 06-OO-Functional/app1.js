@@ -135,3 +135,9 @@ console.log("concatenated arrays = " +array);
 var string = "Split me into an array";
 var array = string.split(" ");
 console.log("Split string = " +array);
+
+
+//  Waypoint 12: Join Strings with join
+var joinMe = ["Split","me","into","an","array"];
+joinMe = joinMe.join(" ");
+console.log("Joined string = " +joinMe);
