@@ -101,3 +101,11 @@ singleVal = array.reduce(function(previous, current) {
 });
 
 console.log("singleValue after a reduce = 30 = " +singleVal);
+
+
+//  Waypoint 7: Filter Arrays with filter
+var array = [1,2,3,4,5,6,7,8,9,10];
+array = array.filter(function(value) {
+  return value <= 5;
+});
+console.log("Removed all the values greater than five = " +array);
