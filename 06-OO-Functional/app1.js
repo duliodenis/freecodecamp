@@ -38,3 +38,34 @@ var MotorBike = function() {
 };
 
 var myMotorBike = new MotorBike();
+
+
+//  Waypoint 3: Make Object Properties Private
+//  Let's create an object with two functions. One attached as a property and one not.
+
+var Car = function() {
+  this.gear = 1;
+  function addStyle(styleMe){
+    return 'The Current Gear Is: ' + styleMe;
+  }
+  this.getGear = function() {
+    return addStyle(this.gear);
+  };
+};
+
+var Bike = function() {
+  // speed is private
+  speed = 100;
+  function addUnit(value) {
+    return value + "KM/H";
+  }
+  
+  // while getSpeed is public    
+  this.getSpeed = function () {
+    return addUnit(speed);
+  };
+  
+};
+
+var myCar = new Car();
+var myBike = new Bike();
