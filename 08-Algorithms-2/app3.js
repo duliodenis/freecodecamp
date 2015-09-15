@@ -54,7 +54,14 @@ console.log("36 = XXXVI = " + num1);
 var num2 = convert(29);
 console.log("29 = XXIX = " + num2);
 
-console.log(convert(12));
-console.log(convert(5));
-console.log(convert(9));
-console.log(convert(16));
+// Case 12: XII
+console.log("12 = XII = " + convert(12));
+
+// Case 5: V
+console.log("5 = V = " + convert(5));
+
+// Case 9: IX
+console.log("9 = IX = " + convert(9));
+
+// Case 16: XVI
+console.log("16 = XVI = " + convert(16));
