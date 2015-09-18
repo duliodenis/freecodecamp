@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  width: 600px; 
+  margin: 0px auto;
+  background-color: #cdcdcd;
+  font-family: 'Roboto', serif;
+  background: url(http://i.imgur.com/2Nrxex6.jpg);
+}
+
+button {
+  font-family: 'Roboto', serif;
+  height: 100px;
+  width: 300px;
+  margin: 20px auto;
+  color: rgba(0,0,0,1);
+  background-color: rgba(120,160,100,.8);;
+  text-align: center; 
+  font-size: 40px;
+  border-radius: 15px;
+  box-shadow: -5px 5px 10px rgba(100,100,100,.8);;
+}
