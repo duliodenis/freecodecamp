@@ -14,6 +14,7 @@ No  | Course
 6. | Object Oriented + Functional Programming
 7. | Front End Dev Projects 1 (Basic)
 8. | Algorithms 2 (Intermediate)
+9. | Algorithms 3 (Advanced 1)
 
 ### Licensing
 My solutions to the Free Code Camp code challenges are licensed under [the MIT License](https://github.com/duliodenis/freecodecamp/blob/master/LICENSE).
